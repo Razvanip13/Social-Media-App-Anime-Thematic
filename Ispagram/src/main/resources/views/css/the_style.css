@@ -1,0 +1,86 @@
+.root{
+
+    -fx-background-color: #ECF5FB;
+}
+
+.button{
+
+    -fx-background-color: #37AFE2;
+    -fx-padding: 10;
+    -fx-text-fill: #ECF5FB;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-style: solid;
+    -fx-border-color: #37AFE2;
+
+}
+
+.combo-box .list-cell{
+
+    -fx-background-color: #37AFE2;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+}
+
+.combo-box{
+
+    -fx-background-color: #37AFE2;
+
+
+}
+
+
+
+.list-view .list-cell{
+
+    -fx-background-color: white;
+}
+
+
+.list-view .list-cell:selected{
+
+    -fx-background-color: #7ed0f2;
+}
+
+
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #B2CEE3;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #ffffff;
+}
+
+/* de aici schimb label-ul la header*/
+
+.table-view .column-header-background .label{
+    -fx-background-color: #37AFE2;
+    -fx-text-fill: white;
+}
+
+.table-view .table-row-cell{
+
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+.table-view .table-row-cell:selected{
+
+    -fx-background-color: #7ed0f2;
+
+}
+
+

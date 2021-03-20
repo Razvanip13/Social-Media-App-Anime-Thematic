@@ -1,0 +1,56 @@
+.root {
+
+    -fx-background-color: #ECF5FB;
+    -fx-accent: #0093ff;
+    -fx-focus-color: #0093ff;
+
+}
+
+
+.text-field{
+
+    -fx-background-color: #FFFFFF;
+    -fx-prompt-text-fill: grey;
+}
+
+
+.button{
+
+    -fx-background-color: #37AFE2;
+    -fx-padding: 10;
+    -fx-text-fill: #ECF5FB;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-style: solid;
+    -fx-border-color: #37AFE2;
+}
+
+
+#listViewReport{
+
+    -fx-background-color: white;
+}
+
+#tableViewFriends{
+
+    -fx-background-color: white;
+
+}
+
+#columnFirstName{
+
+    -fx-background-color: white;
+}
+
+#columnLastName{
+
+    -fx-background-color: white;
+}
+
+.label{
+
+    -fx-background-color: #37AFE2;
+    -fx-text-fill: #ECF5FB;
+
+}
+

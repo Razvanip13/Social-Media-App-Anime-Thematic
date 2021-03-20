@@ -1,0 +1,20 @@
+#textAreaMessage{
+
+    -fx-background-color: white;
+}
+
+#tableViewTelegramUsers{
+
+    -fx-background-color: white;
+
+}
+
+#tableColumnTelegramFirstName{
+
+    -fx-background-color: white;
+}
+
+#tableColumnTelegramLastName{
+
+    -fx-background-color: white;
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="697.0" prefWidth="1073.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="socialnetwork.controller.PublicEventsController">
+   <children>
+      <TableView fx:id="tableViewEvents" layoutX="41.0" layoutY="39.0" onMouseClicked="#handleShowDetails" prefHeight="265.0" prefWidth="503.0">
+        <columns>
+          <TableColumn fx:id="columnPublicEvent" prefWidth="354.39995193481445" text="Event" />
+          <TableColumn fx:id="columnPublicDate" minWidth="0.0" prefWidth="148.800048828125" text="Date" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tableViewUserEvents" layoutX="585.0" layoutY="39.0" prefHeight="265.0" prefWidth="461.0">
+         <columns>
+            <TableColumn fx:id="columnUserEventName" prefWidth="252.79986572265625" text="Event" />
+            <TableColumn fx:id="columnNotify" prefWidth="75.0" text="Notify" />
+            <TableColumn fx:id="columnUserEventDate" prefWidth="132.80002441406248" text="Date" />
+         </columns>
+      </TableView>
+      <VBox layoutX="41.0" layoutY="374.0" prefHeight="303.0" prefWidth="495.0" spacing="10.0">
+         <children>
+            <Label text="Event details">
+               <font>
+                  <Font name="Lucida Bright" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textFieldEventName" prefHeight="32.0" prefWidth="302.0" />
+            <TextField fx:id="textFieldDate" />
+            <TextField fx:id="textFieldLocation" />
+            <TextField fx:id="textFieldOrganizer" />
+            <TextArea fx:id="textAreaDescription" prefHeight="129.0" prefWidth="503.0" />
+         </children>
+      </VBox>
+      <HBox layoutX="41.0" layoutY="317.0" prefHeight="44.0" prefWidth="394.0" spacing="20.0">
+         <children>
+            <Label fx:id="labelCountEvents" text="0/0" />
+            <Button fx:id="buttonBackPublicEvent" mnemonicParsing="false" onMouseClicked="#handleBackPublic" text="&lt;" />
+            <Button fx:id="buttonNextPublicEvent" mnemonicParsing="false" onMouseClicked="#handleNextPublic" text="&gt;" />
+            <Button fx:id="buttonSubscribe" mnemonicParsing="false" onMouseClicked="#handleSubscribe" text="Subscribe" />
+            <Button fx:id="buttonAddEvent" mnemonicParsing="false" onMouseClicked="#handleAddEvent" prefHeight="32.0" prefWidth="130.0" text="Create event" />
+         </children>
+      </HBox>
+      <HBox layoutX="584.0" layoutY="317.0" prefHeight="44.0" prefWidth="462.0" spacing="20.0">
+         <children>
+            <Label fx:id="labelCountUserEvents" text="0/0" />
+            <Button fx:id="buttonBackEvent" mnemonicParsing="false" onMouseClicked="#handleBackU" text="&lt;" />
+            <Button fx:id="buttonNextEvents" mnemonicParsing="false" onMouseClicked="#handleNextU" text="&gt;" />
+            <Button fx:id="buttonUnsubscribe" mnemonicParsing="false" onMouseClicked="#handleUnsubscribe" text="Unsubscribe" />
+            <Button fx:id="buttonNotify" mnemonicParsing="false" onMouseClicked="#handleNotify" text="Notify" />
+            <Button fx:id="buttonUnnotify" mnemonicParsing="false" onMouseClicked="#handleUnnotify" text="Unnotify" />
+         </children>
+      </HBox>
+      <ImageView fx:id="imageViewEvents" fitHeight="263.0" fitWidth="462.0" layoutX="585.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="41.0" layoutY="19.0" text="Public events">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="587.0" layoutY="19.0" text="Your events">
+         <font>
+            <Font name="Lucida Bright" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

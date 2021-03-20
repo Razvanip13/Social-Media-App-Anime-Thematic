@@ -1,0 +1,96 @@
+.root{
+
+
+}
+
+
+
+#anchorPanelMainBackground{
+
+    -fx-background-color: #ECF5FB;
+}
+
+.table-row-cell:selected {
+    -fx-background-color:#B2CEE3 ;
+
+}
+
+
+
+
+.button{
+
+    -fx-background-color: #37AFE2;
+    -fx-padding: 10;
+    -fx-text-fill: #ECF5FB;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-style: solid;
+    -fx-border-color: #37AFE2;
+
+}
+
+.label{
+    -fx-background-color: #37AFE2;
+    -fx-text-fill: #ECF5FB;
+
+}
+
+#labelLogged{
+
+    -fx-text-fill: #000100;
+    -fx-background-color: #ECF5FB;
+    -fx-border-color: #ECF5FB;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#labelFriends{
+
+}
+#labelAllUsers{
+
+}
+#usersTable{
+
+    -fx-background-color: white;
+
+}
+
+/*
+
+#columnUserID:selected{
+    -fx-background-color: #B2CEE3;
+}
+
+
+#columnUserID{
+
+    -fx-background-color: white;
+}
+
+#columnUserFirstName{
+
+    -fx-background-color: #FFFFFF;
+}
+
+#columnUserLastName{
+
+    -fx-background-color: #FFFFFF;
+}
+
+#columnFriendFirstName{
+
+    -fx-background-color: #FFFFFF;
+}
+
+#columnFriendLastName{
+
+    -fx-background-color: #FFFFFF;
+}
+
+#columnFriendDate{
+
+    -fx-background-color: #FFFFFF;
+
+}*/

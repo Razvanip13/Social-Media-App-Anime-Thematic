@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+    id 'org.springframework.boot' version '2.3.2.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.18'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.itextpdf:itextg:5.5.9'
+
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+
+    compile 'commons-codec:commons-codec:1.14'
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+javafx {
+    version = "13"
+    modules = [ 'javafx.controls' , 'javafx.fxml']
+}
+mainClassName = 'MainFX'

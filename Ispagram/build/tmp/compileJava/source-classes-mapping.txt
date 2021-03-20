@@ -1,0 +1,162 @@
+socialnetwork/domain/pages/UserPage.java
+ socialnetwork.domain.pages.UserPage
+ socialnetwork.domain.pages.UserPage$1
+socialnetwork/repository/EventsRepository.java
+ socialnetwork.repository.EventsRepository
+socialnetwork/Networkanalyzer/NetworkAnalyzer.java
+ socialnetwork.Networkanalyzer.NetworkAnalyzer
+socialnetwork/utils/events/RequestChangeEvent.java
+ socialnetwork.utils.events.RequestChangeEvent
+socialnetwork/repository/memory/InMemoryRepository.java
+ socialnetwork.repository.memory.InMemoryRepository
+socialnetwork/service/ServiceException.java
+ socialnetwork.service.ServiceException
+socialnetwork/domain/validators/ValidationException.java
+ socialnetwork.domain.validators.ValidationException
+socialnetwork/repository/Repository.java
+ socialnetwork.repository.Repository
+socialnetwork/domain/validators/Validator.java
+ socialnetwork.domain.validators.Validator
+socialnetwork/controller/PrieteniiController.java
+ socialnetwork.controller.PrieteniiController
+ socialnetwork.controller.PrieteniiController$1
+socialnetwork/config/Status.java
+ socialnetwork.config.Status
+socialnetwork/repository/paging/pagingRepo/PagingFriendsRepo.java
+ socialnetwork.repository.paging.pagingRepo.PagingFriendsRepo
+socialnetwork/repository/paging/Pageable.java
+ socialnetwork.repository.paging.Pageable
+socialnetwork/controller/messageboxes/MessageAlert.java
+ socialnetwork.controller.messageboxes.MessageAlert
+socialnetwork/utils/events/UtilizatorChangeEvent.java
+ socialnetwork.utils.events.UtilizatorChangeEvent
+socialnetwork/service/EventsService.java
+ socialnetwork.service.EventsService
+socialnetwork/domain/message/Message.java
+ socialnetwork.domain.message.Message
+socialnetwork/Main.java
+ socialnetwork.Main
+socialnetwork/controller/messageboxes/MessageInformation.java
+ socialnetwork.controller.messageboxes.MessageInformation
+socialnetwork/repository/paging/Page.java
+ socialnetwork.repository.paging.Page
+socialnetwork/config/ApplicationContext.java
+ socialnetwork.config.ApplicationContext
+socialnetwork/controller/LoginController.java
+ socialnetwork.controller.LoginController
+socialnetwork/repository/database/FriendRequestBDRepository.java
+ socialnetwork.repository.database.FriendRequestBDRepository
+socialnetwork/repository/file/AbstractFileRepository.java
+ socialnetwork.repository.file.AbstractFileRepository
+socialnetwork/repository/paging/pagingRepo/PagingRepoFriends.java
+ socialnetwork.repository.paging.pagingRepo.PagingRepoFriends
+socialnetwork/utils/observer/Observable.java
+ socialnetwork.utils.observer.Observable
+socialnetwork/domain/Entity.java
+ socialnetwork.domain.Entity
+socialnetwork/domain/validators/EventValidator.java
+ socialnetwork.domain.validators.EventValidator
+socialnetwork/controller/SentRequestsController.java
+ socialnetwork.controller.SentRequestsController
+socialnetwork/controller/TelegramController.java
+ socialnetwork.controller.TelegramController
+socialnetwork/domain/validators/MessageValidator.java
+ socialnetwork.domain.validators.MessageValidator
+socialnetwork/repository/database/FriendshipBDRepository.java
+ socialnetwork.repository.database.FriendshipBDRepository
+socialnetwork/controller/CreateEventController.java
+ socialnetwork.controller.CreateEventController
+socialnetwork/controller/GuiController.java
+ socialnetwork.controller.GuiController
+socialnetwork/utils/events/AbstractEvent.java
+ socialnetwork.utils.events.AbstractEvent
+socialnetwork/repository/paging/pagingRepo/PagingUsersRepo.java
+ socialnetwork.repository.paging.pagingRepo.PagingUsersRepo
+socialnetwork/domain/validators/PrietenieValidator.java
+ socialnetwork.domain.validators.PrietenieValidator
+socialnetwork/repository/database/PublicEventsDBRepository.java
+ socialnetwork.repository.database.PublicEventsDBRepository
+socialnetwork/service/MessengerService.java
+ socialnetwork.service.MessengerService
+socialnetwork/repository/paging/Paginator.java
+ socialnetwork.repository.paging.Paginator
+socialnetwork/repository/paging/PageableImplementation.java
+ socialnetwork.repository.paging.PageableImplementation
+socialnetwork/repository/RepoException.java
+ socialnetwork.repository.RepoException
+socialnetwork/repository/database/UtilizatorDbRepository.java
+ socialnetwork.repository.database.UtilizatorDbRepository
+socialnetwork/repository/paging/pagingRepo/PagingRepoRequests.java
+ socialnetwork.repository.paging.pagingRepo.PagingRepoRequests
+socialnetwork/repository/paging/pagingRepo/PagingRepository.java
+ socialnetwork.repository.paging.pagingRepo.PagingRepository
+socialnetwork/domain/users/Utilizator.java
+ socialnetwork.domain.users.Utilizator
+socialnetwork/repository/paging/pagingRepo/PagingRepoEvents.java
+ socialnetwork.repository.paging.pagingRepo.PagingRepoEvents
+socialnetwork/controller/PublicEventsController.java
+ socialnetwork.controller.PublicEventsController
+socialnetwork/domain/friendship/FriendDTO.java
+ socialnetwork.domain.friendship.FriendDTO
+socialnetwork/domain/friendship/Prietenie.java
+ socialnetwork.domain.friendship.Prietenie
+socialnetwork/utils/events/Event.java
+ socialnetwork.utils.events.Event
+socialnetwork/repository/paging/pagingRepo/PagingRepoMessages.java
+ socialnetwork.repository.paging.pagingRepo.PagingRepoMessages
+socialnetwork/service/UtilizatorService.java
+ socialnetwork.service.UtilizatorService
+socialnetwork/utils/events/FriendshipChangeEvent.java
+ socialnetwork.utils.events.FriendshipChangeEvent
+socialnetwork/config/Constants.java
+ socialnetwork.config.Constants
+socialnetwork/controller/ConversationsController.java
+ socialnetwork.controller.ConversationsController
+socialnetwork/controller/RequestsController.java
+ socialnetwork.controller.RequestsController
+socialnetwork/utils/events/MessageEventChange.java
+ socialnetwork.utils.events.MessageEventChange
+socialnetwork/controller/signUpController.java
+ socialnetwork.controller.signUpController
+socialnetwork/utils/observer/Observer.java
+ socialnetwork.utils.observer.Observer
+socialnetwork/domain/validators/UtilizatorValidator.java
+ socialnetwork.domain.validators.UtilizatorValidator
+socialnetwork/repository/file/UtilizatorFile.java
+ socialnetwork.repository.file.UtilizatorFile
+socialnetwork/domain/frequest/FRequest.java
+ socialnetwork.domain.frequest.FRequest
+socialnetwork/controller/ReportsController.java
+ socialnetwork.controller.ReportsController
+ socialnetwork.controller.ReportsController$1
+socialnetwork/MainApp.java
+ socialnetwork.MainApp
+ socialnetwork.MainApp$1
+socialnetwork/MainFx.java
+ socialnetwork.MainFx
+socialnetwork/controller/reports/FormType.java
+ socialnetwork.controller.reports.FormType
+socialnetwork/domain/frequest/FRequestDTO.java
+ socialnetwork.domain.frequest.FRequestDTO
+socialnetwork/domain/public_events/PublicEvent.java
+ socialnetwork.domain.public_events.PublicEvent
+socialnetwork/domain/Tuple.java
+ socialnetwork.domain.Tuple
+socialnetwork/repository/file/PrietenieFileRepository.java
+ socialnetwork.repository.file.PrietenieFileRepository
+socialnetwork/repository/paging/PageImplementation.java
+ socialnetwork.repository.paging.PageImplementation
+socialnetwork/ui/UserInterface.java
+ socialnetwork.ui.UserInterface
+socialnetwork/config/Config.java
+ socialnetwork.config.Config
+socialnetwork/service/FriendshipService.java
+ socialnetwork.service.FriendshipService
+socialnetwork/utils/events/ChangeEventType.java
+ socialnetwork.utils.events.ChangeEventType
+socialnetwork/utils/md5/Md5.java
+ socialnetwork.utils.md5.Md5
+socialnetwork/utils/events/PublicEventChangeEvent.java
+ socialnetwork.utils.events.PublicEventChangeEvent
+socialnetwork/repository/database/MessagesBDRepository.java
+ socialnetwork.repository.database.MessagesBDRepository

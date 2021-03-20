@@ -1,0 +1,26 @@
+.root {
+
+    -fx-background-color: #ECF5FB;
+
+
+}
+
+.text-field{
+
+    -fx-background-color: #FFFFFF;
+    -fx-prompt-text-fill: grey;
+}
+
+.button{
+
+    -fx-background-color: #37AFE2;
+    -fx-padding: 10;
+    -fx-text-fill: #ECF5FB;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-style: solid;
+    -fx-border-color: #37AFE2;
+
+}
+
+
